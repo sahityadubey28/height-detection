@@ -26,7 +26,7 @@ const AuthPage = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="glass-card w-full max-w-md p-8 rounded-2xl space-y-8 animate-float">
+      <div className="glass-card w-full max-w-md p-8 rounded-2xl space-y-8 transition-transform duration-300 hover:scale-105">
         <div className="text-center space-y-2">
           <h1 className="text-4xl font-bold text-primary">Height Detection App</h1>
           <p className="text-primary/80">Authenticate with your voice</p>
